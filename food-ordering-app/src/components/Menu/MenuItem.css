@@ -1,0 +1,24 @@
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .menu-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .menu-item button:hover {
+    background-color: #218838;
+  }
+  

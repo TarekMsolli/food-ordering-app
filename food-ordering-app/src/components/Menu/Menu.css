@@ -1,0 +1,25 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu {
+      grid-template-columns: 1fr;
+    }
+  }
+  

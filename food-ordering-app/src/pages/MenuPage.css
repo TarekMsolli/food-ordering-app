@@ -1,0 +1,23 @@
+.menu-page {
+  padding: 20px;
+}
+
+.filter-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-search input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-search select {
+  width: 28%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
